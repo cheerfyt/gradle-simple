@@ -1,0 +1,6 @@
+node {
+    script {
+        sh "printenv"
+        sh "wtctl"
+    }
+}
